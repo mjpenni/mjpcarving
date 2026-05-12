@@ -67,7 +67,7 @@ Example:
  	   \</figure\>  
 \</body\>  
 \</html\>  
-htdocs/style css \= style document that effects whole webpage  
+htdocs/style css \= style document that effects whole webpage located in the htdocs directory
 body {   
     color: brown;  
     background-color: tan;   
