@@ -2,6 +2,7 @@
 
 The domain mjpcarving.art was purchased for 5 years from [godaddy.com](http://godaddy.com) mid 2025\. Since at this time there are no plans for this to be a commercial site it was a goal to put this together as cheaply as possible, and includes no reference to my name, email or phone number. I found free hosting at “[infinityfree.com](http://infinityfree.com)”. Username is [mark@penniman.net](mailto:mark@penniman.net), password is On2Narnia. URL is: [https://dash.infinityfree.com/accounts/if0\_36794951](https://dash.infinityfree.com/accounts/if0_36794951) . Log in with the username and password. In the center of the resulting web page ‘mjpcarving.art’ is listed. Select ‘Manage’. Every 3 months or so it is necessary to create and install a new free SSL certificate from “Let’s Encrypt”. When a new SSL is created it takes a while to process. Click on ‘File Manager’. The various files used are:   
 htdocs/index.php \= initial web page, links to thumbnails  
+5/11/2026 MJP attempted to add another item to the web page and found it didn't work. Ugh. Much digging and trial and error revealed that the were 2 samples2.html files, one in htdocs and one in htdocs/Carvings. The one in htdocs was bogus, but the one in htdocs/Carvings had entries that pointed to the wrong place for the *.html and *jpg files. MJP made the corrections, tested the site and was satisfied. The changed were put in git. 
 \<\!-- index.php →  
 \<\!doctype html\>  
 \<html\>  
