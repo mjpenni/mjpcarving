@@ -14,7 +14,7 @@ print "While still in high school Mark (Marco) got his first commercial woodcarv
   ?>
  <h1>
   <p>
- <a href="samples2.html">Samples</a>
+ <a href="Carvings/samples2.html">Samples</a>
   </p>
   </h1>
 </body>
