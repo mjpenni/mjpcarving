@@ -1,3 +1,4 @@
+/* This file goes in the same directory with index.php, not with photos */
 body { 
     color: brown;
     background-color: tan; 
@@ -13,4 +14,11 @@ img.ImageBorder {
     padding: 1px;
     /* border-style: solid black;
     border-width: 3px; */
+}
+/* suggested by Grok */
+/* make images responsive and fit on screen */
+img {
+    max-width: 100%; /* Never wider than its container */
+    height: auto; /* Preserve aspect ratio */
+    width: auto; /* let it scale naturaly */
 }
