@@ -15,10 +15,3 @@ img.ImageBorder {
     /* border-style: solid black;
     border-width: 3px; */
 }
-/* suggested by Grok */
-/* make images responsive and fit on screen */
-img {
-    max-width: 100%; /* Never wider than its container */
-    height: auto; /* Preserve aspect ratio */
-    width: auto; /* let it scale naturaly */
-}
